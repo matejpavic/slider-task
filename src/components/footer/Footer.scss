@@ -1,0 +1,18 @@
+.footer {
+  height: 100px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 490px;
+  width: 941px;
+  background-color: #dddddd;
+  color: white;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  span {
+    margin-left: 60px;
+  }
+}

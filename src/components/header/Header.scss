@@ -1,0 +1,28 @@
+.header {
+  height: 100px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+
+  .first-element {
+    margin-left: 490px;
+    width: 301px;
+    background-color: #dddddd;
+    height: 100%;
+  }
+  .second-element {
+    display: flex;
+    margin-left: 19px;
+    width: 621px;
+    background-color: #dddddd;
+    height: 100%;
+    color: white;
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    span {
+      margin-left: 80px;
+    }
+  }
+}
