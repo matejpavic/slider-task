@@ -42,9 +42,9 @@ function SlideShow() {
             <div className='top-row'>
                 {
                     arr1.map((item, index) => {
-                        const {id, image, dim} = item;
+                        const {id, image } = item;
                         return(
-                            <img key={id} className='image' src={image} style={{height: `${dim}px`}} alt='slide'/>
+                            <img key={id} className='image' src={image} alt='slide'/>
                         )
                     })
                 }
@@ -52,9 +52,9 @@ function SlideShow() {
             <div className='bottom-row'>
                 {
                     arr2.map((item, index) => {
-                        const {id, image, dim} = item;
+                        const {id, image } = item;
                         return(
-                            <img key={id} className='image' src={image} style={{height: `${dim}px`}} alt='slide'/>
+                            <img key={id} className='image' src={image} alt='slide'/>
                         )
                     })
                 }
